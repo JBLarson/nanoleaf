@@ -3,7 +3,7 @@
 from nanoleafapi import Nanoleaf
 from time import sleep
 
-nl = Nanoleaf("192.168.1.165")
+nl = Nanoleaf("192.168.1.111")
 
 
 powerResp = nl.power_on()
